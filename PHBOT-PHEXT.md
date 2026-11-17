@@ -251,3 +251,9 @@ SHA-256 41c7ad5b821b8389eff2492378d162659aac9fd8c117d0243d9680316655f966,
 locally as phbot-v3.phext and phbot-v2-local.phext; the upstream
 project keeps its own name — pybot is the ancestor, phbot is the
 lineage.
+
+Storage (Will, 2026-11-17): the repo stores phbot.phext compressed —
+phbot.phext.xz, 11,000,268 bytes, SHA-256
+8d470e2c1b81d4feada2a5aa60b6b0be78bea5f7f41b9dcb82bb97ec4cf3b03e —
+and setup.sh extracts and verifies the phext on setup. The raw
+91 MB form no longer sits in git history past the first commit.
